@@ -10,15 +10,38 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-button{
-  padding: .4rem 1.2rem;
-  margin: 1rem;
+button {
+    padding: 0.4rem 1.2rem;
+    margin: 1rem;
 }
 
 .container {
-    text-align: center;
     margin: 0 auto;
     padding: 2rem;
     background-color: antiquewhite;
-    height: 100vh;
+    height: 90vh;
+    width: 80vw;
+}
+
+input[type='text'] {
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.card {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    overflow: hidden;
+    min-width: 275px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.card p {
+    margin: 1rem 0;
 }

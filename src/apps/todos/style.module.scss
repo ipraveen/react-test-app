@@ -1,0 +1,17 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.todoAction {
+    width: 200px;
+    input[type='checkbox'] {
+        display: inline;
+        margin: 0;
+    }
+
+    span {
+        display: inline;
+        text-align: left;
+    }
+}

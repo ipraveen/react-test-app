@@ -4,6 +4,7 @@ import styles from './style.module.scss';
 
 function Page({ setTheme }) {
     const { theme } = useContext(Context);
+    
     return (
         <div className={styles.page} style={{ background: theme.background, color: theme.foreground }}>
             <section>
