@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './apps/todos';
+import App from './apps/card-animation/CardAnimation';
 
 // const root = document.getElementById('root');
 
